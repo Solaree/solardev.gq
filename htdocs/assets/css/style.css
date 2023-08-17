@@ -1,5 +1,5 @@
 /*body*/
-body{
+body {
   background-image: url('background.gif');
   background-repeat: repeat;
   position: absolute;
@@ -8,11 +8,7 @@ body{
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
-
-/*fonts*/
-h {
-  font-size: 20px;
-}
+/*body*/
 
 /*border*/
 .border {
@@ -22,6 +18,8 @@ h {
   width: 400px;
   height: 600px;
 }
+/*border*/
+
 /*button*/
 .button-30 {
     align-items: center;
@@ -55,23 +53,20 @@ h {
     white-space: nowrap;
     will-change: box-shadow,transform;
     font-size: 18px;
-  }
-  
-  .button-30:focus {
+}
+.button-30:focus {
     box-shadow: #724e93 0 0 0 1.5px inset, #724e93(70, 17, 185, 0.4) 0 2px 4px, #724e93(70, 17, 185, 0.3) 0 7px 13px -3px, #724e93 0 -3px 0 inset;
-  }
-  
-  .button-30:hover {
+}
+.button-30:hover {
     box-shadow: #724e93(70, 17, 185, 0.4) 0 4px 8px, #724e93(70, 17, 185, 0.3) 0 7px 13px -3px, #724e93 0 -3px 0 inset;
     transform: translateY(-2px);
-  }
-  
-  .button-30:active {
+}
+.button-30:active {
     box-shadow: #724e93 0 3px 7px inset;
     transform: translateY(2px);
-  }
+}
 
-  .button-31 {
+.button-31 {
     align-items: center;
     appearance: none;
     background-color: #724e93a0;
@@ -104,22 +99,19 @@ h {
     will-change: box-shadow,transform;
     font-size: 18px;
   }
-  
-  .button-31:focus {
+.button-31:focus {
     box-shadow: #724e93 0 0 0 1.5px inset, #724e93(70, 17, 185, 0.4) 0 2px 4px, #724e93(70, 17, 185, 0.3) 0 7px 13px -3px, #724e93 0 -3px 0 inset;
-  }
-  
-  .button-31:hover {
+}
+.button-31:hover {
     box-shadow: #724e93(70, 17, 185, 0.4) 0 4px 8px, #724e93(70, 17, 185, 0.3) 0 7px 13px -3px, #724e93 0 -3px 0 inset;
     transform: translateY(-2px);
-  }
-  
-  .button-31:active {
+}
+.button-31:active {
     box-shadow: #724e93 0 3px 7px inset;
     transform: translateY(2px);
-  }
- 
-  .button-32 {
+}
+
+.button-32 {
     align-items: center;
     appearance: none;
     background-color: #724e93a0;
@@ -151,21 +143,19 @@ h {
     white-space: nowrap;
     will-change: box-shadow,transform;
     font-size: 18px;
-  }
-  
-  .button-32:focus {
+}
+.button-32:focus {
     box-shadow: #724e93 0 0 0 1.5px inset, #724e93(70, 17, 185, 0.4) 0 2px 4px, #724e93(70, 17, 185, 0.3) 0 7px 13px -3px, #724e93 0 -3px 0 inset;
-  }
-  
-  .button-32:hover {
+}
+.button-32:hover {
     box-shadow: #724e93(70, 17, 185, 0.4) 0 4px 8px, #724e93(70, 17, 185, 0.3) 0 7px 13px -3px, #724e93 0 -3px 0 inset;
     transform: translateY(-2px);
-  }
-  
-  .button-32:active {
+}
+.button-32:active {
     box-shadow: #724e93 0 3px 7px inset;
     transform: translateY(2px);
-  }
+}
+/*button*/
 
 /*avatar*/
 .avatar-container {
@@ -174,7 +164,6 @@ h {
   justify-content: center;
   align-items: flex-end;
 }
-
 .avatar {
   width: 10em;
   height: 10em;
@@ -186,6 +175,7 @@ h {
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
+/*avatar*/
 
 /*center*/
 .center {
@@ -216,8 +206,9 @@ h {
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
+/*center*/
 
-/*Typing Effect*/
+/*typing effect*/
 * {
   margin: 0;
   padding: 0;
@@ -263,3 +254,4 @@ body {
   99% { background-color: transparent; }
   100%  { background-color: #ccc; }
 }
+/*typing effect*/
