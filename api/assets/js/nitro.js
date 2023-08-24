@@ -12,7 +12,7 @@ async function nitroGen() {
 
     // Check the nitro validity with Discord API
     try {
-        const response = await fetch(`https://discordapp.com/api/entitlements/gift-codes/${code}`);
+        const response = await fetch(`https://discord.com/api/v10/entitlements/gift-codes/${code}`);
         const nitroInfo = await response.json();
 
         if (nitroInfo.message === 'Unknown Gift Code') {
